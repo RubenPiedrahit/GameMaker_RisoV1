@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Conjuntos de casillas","folderPath":"folders/Conjuntos de casillas.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Curvas de animación","folderPath":"folders/Curvas de animación.yy",},
@@ -34,10 +34,15 @@
     "IDEVersion": "2023.2.0.71",
   },
   "resources": [
-    {"id":{"name":"objugador","path":"objects/objugador/objugador.yy",},},
+    {"id":{"name":"spr_pj1_Fail","path":"sprites/spr_pj1_Fail/spr_pj1_Fail.yy",},},
+    {"id":{"name":"objJugador","path":"objects/objJugador/objJugador.yy",},},
+    {"id":{"name":"spr_pj2","path":"sprites/spr_pj2/spr_pj2.yy",},},
+    {"id":{"name":"spr_pj1_Idle","path":"sprites/spr_pj1_Idle/spr_pj1_Idle.yy",},},
+    {"id":{"name":"spr_pj2_Idle","path":"sprites/spr_pj2_Idle/spr_pj2_Idle.yy",},},
+    {"id":{"name":"spr_pj1","path":"sprites/spr_pj1/spr_pj1.yy",},},
     {"id":{"name":"spr_fondo","path":"sprites/spr_fondo/spr_fondo.yy",},},
     {"id":{"name":"spr_piso","path":"sprites/spr_piso/spr_piso.yy",},},
-    {"id":{"name":"spr_pj1","path":"sprites/spr_pj1/spr_pj1.yy",},},
+    {"id":{"name":"objAuditor","path":"objects/objAuditor/objAuditor.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
