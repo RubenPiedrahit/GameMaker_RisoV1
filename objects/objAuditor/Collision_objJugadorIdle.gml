@@ -12,7 +12,7 @@
 	//global.pregunta_actual = pregunta_aleatoria[0];
 	//global.respuesta_actual = pregunta_aleatoria[1];
 	global.preguntas = "1";
-	global.opciones_respuesta = [];
+
 // Inicializar variables de juego
 global.preguntas_correctas = 0;
 global.pregunta_actual = 0;

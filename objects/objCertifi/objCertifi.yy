@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objCaraTriste",
+  "name": "objCertifi",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_caratriste",
-    "path": "sprites/spr_caratriste/spr_caratriste.yy",
+    "name": "spr_certif",
+    "path": "sprites/spr_certif/spr_certif.yy",
   },
   "spriteMaskId": null,
   "visible": true,
