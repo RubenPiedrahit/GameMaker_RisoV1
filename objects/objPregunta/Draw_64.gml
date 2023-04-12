@@ -25,12 +25,18 @@ function mostrarPregunta() {
 
     draw_set_color(c_black);
     
-    var max_width = 400; // Ancho máximo del texto de la pregunta
-    var text_width = string_width(global.pregunta); // Ancho del texto de la pregunta
-    var text_x = clamp(x - 250, x - max_width / 2, x + max_width / 2 - text_width); // Calcula la posición x del texto
-    var text_y = y - 250; // Posición y del texto
+    var max_width = 400;
+    var text_width = string_width(global.pregunta); 
+    var text_x = clamp(x - 250, x - max_width / 2, x + max_width / 2 - text_width); 
+    var text_y = y - 250; 
+    
+
+    draw_set_font(fntPreguntas); 
     
     draw_text(text_x, text_y, global.pregunta);
+    
+
+    draw_set_font(fntPreguntas); 
     
     for (var i = 0; i < array_length_1d(global.opciones_respuesta); i++) {
         draw_text(x - 250, y - 220 + i * 20, chr(97+i) + ") " + global.opciones_respuesta[i]);
