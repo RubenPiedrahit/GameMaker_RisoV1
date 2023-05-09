@@ -34,7 +34,9 @@
     "IDEVersion": "2023.2.0.71",
   },
   "resources": [
+    {"id":{"name":"sndBien","path":"sounds/sndBien/sndBien.yy",},},
     {"id":{"name":"spr_pj1_Fail","path":"sprites/spr_pj1_Fail/spr_pj1_Fail.yy",},},
+    {"id":{"name":"sndMal","path":"sounds/sndMal/sndMal.yy",},},
     {"id":{"name":"spr_certif","path":"sprites/spr_certif/spr_certif.yy",},},
     {"id":{"name":"objJugadorIdle","path":"objects/objJugadorIdle/objJugadorIdle.yy",},},
     {"id":{"name":"objJugador","path":"objects/objJugador/objJugador.yy",},},
@@ -51,6 +53,7 @@
     {"id":{"name":"spr_fondo","path":"sprites/spr_fondo/spr_fondo.yy",},},
     {"id":{"name":"spr_piso","path":"sprites/spr_piso/spr_piso.yy",},},
     {"id":{"name":"objAuditor","path":"objects/objAuditor/objAuditor.yy",},},
+    {"id":{"name":"sndFondo","path":"sounds/sndFondo/sndFondo.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

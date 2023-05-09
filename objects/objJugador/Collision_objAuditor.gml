@@ -9,4 +9,3 @@ if (place_meeting(x + move_speed, y, objAuditor)) {
     x = lerp(old_x, x, 0.5);
 	
 }
-
